@@ -1,2 +1,21 @@
+/* Holder styling */
+.holder {
+    display: flex;              /* Enables flexbox */
+    justify-content: space-evenly; /* Distributes items evenly with equal space */
+    flex-wrap: wrap;            /* Moves items to the next row if needed */
+    width: 100vw;               /* Full viewport width */
+    padding: 10px;              /* Adds some padding */
+}
 
-/* Your CSS Code here. */
+/* Item styling */
+.item {
+    width: 150px;               /* Fixed width */
+    height: 150px;              /* Fixed height */
+    background-color: lightblue; /* Example background color */
+    display: flex;              /* Centers text inside */
+    align-items: center;        /* Vertical centering */
+    justify-content: center;    /* Horizontal centering */
+    font-size: 20px;            /* Font size */
+    font-weight: bold;          /* Bold text */
+    border: 2px solid black;    /* Border for visibility */
+}
